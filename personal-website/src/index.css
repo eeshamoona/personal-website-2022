@@ -5,9 +5,9 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: PlusJakartaSans-ExtraBold, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -17,15 +17,15 @@ body {
   width: 100%;
 }
 
-.section2 {
+.home {
   background-color: aquamarine;
 }
-.section3 {
+.work {
   background-color: aqua;
 }
-.section4 {
+.projects {
   background-color: antiquewhite;
 }
-.section5 {
+.contact {
   background-color: darkgoldenrod;
 }

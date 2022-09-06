@@ -16,15 +16,24 @@
 }
 
 .resume {
-  width: 15vh;
+  width: 20vh;
   height: 5vh;
   margin: 1vh;
   border-radius: 10px;
-  background-color: #5e17eb;
-  color: white;
-  border: none;
-  font-size: medium;
+  background-color: transparent;
+  border-color: #5e17eb;
+  color: #5e17eb;
+  font-size: large;
   font-weight: bold;
+  transition: all 0.7s ease-in-out;
+}
+
+.resume:hover {
+  opacity: 80%;
+  background-color: #5e17eb;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
 
 .nav-links {
@@ -32,6 +41,7 @@
   justify-content: space-around;
   align-items: center;
   width: 50%;
+  font-size: large;
 }
 
 @media (max-width: 500px) {
@@ -45,15 +55,17 @@ li {
 }
 
 .link {
-  padding: 10px;
-  border-radius: 5px;
+  padding: 1vh;
   cursor: pointer;
   font-weight: 500;
-  transition: all 0.5s ease-in-out;
+  font-size: larger;
+  transition: all 0.3s ease-in-out;
 }
 
 .link:hover {
-  background-color: aliceblue;
+  color: #5e17eb;
+  border-bottom: solid 3px #5e17eb;
+  font-size: x-large;
 }
 
 h2 {

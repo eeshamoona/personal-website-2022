@@ -1,6 +1,12 @@
 import React, { useRef } from "react";
 import "./index.css";
 import "./styles/navbarStyles.css";
+import HomeView from "./views/HomeView";
+import ContactView from "./views/ContactView";
+import ProjectView from "./views/ProjectView";
+import WorkExperienceView from "./views/WorkExperienceView";
+
+import { FaFileDownload } from "react-icons/fa";
 
 function App() {
   const homeSection = useRef<null | HTMLDivElement>(null);
@@ -35,20 +41,23 @@ function App() {
             Contact
           </li>
         </ul>
-        <button className="resume"> Download Resume</button>
+        <button className="resume">
+          {" "}
+          <FaFileDownload /> Download Resume
+        </button>
       </div>
 
-      <div className="section section2" ref={homeSection}>
-        <h2>Home</h2>
+      <div className="section home" ref={homeSection}>
+        <HomeView />
       </div>
-      <div className="section section3" ref={workSection}>
-        <h2>Work Experience</h2>
+      <div className="section work" ref={workSection}>
+        <WorkExperienceView />
       </div>
-      <div className="section section3" ref={projectSection}>
-        <h2>Projects</h2>
+      <div className="section projects" ref={projectSection}>
+        <ProjectView />
       </div>
-      <div className="section section4" ref={contactSection}>
-        <h2>Contact Me</h2>
+      <div className="section contact" ref={contactSection}>
+        <ContactView />
       </div>
     </div>
   );
