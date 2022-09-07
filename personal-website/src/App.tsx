@@ -41,10 +41,7 @@ function App() {
             Contact
           </li>
         </ul>
-        <a
-          href="Eesha_Moona_Resume_Sept_2022.pdf"
-          download
-        >
+        <a href="Eesha_Moona_Resume_Sept_2022.pdf" download>
           <button className="resume">
             {" "}
             <FaFileDownload /> Download Resume

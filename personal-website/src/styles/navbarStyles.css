@@ -21,19 +21,20 @@
   height: 5vh;
   margin: 1vh;
   border-radius: 10px;
-  background-color: transparent;
-  border-color: #5e17eb;
-  color: #5e17eb;
+  opacity: 80%;
+  background-color: #5e17eb;
+  border: none;
+  color: white;
   font-size: large;
   font-weight: bold;
   transition: all 0.7s ease-in-out;
 }
 
 .resume:hover {
-  opacity: 80%;
-  background-color: #5e17eb;
-  border: none;
-  color: white;
+  background-color: transparent;
+  border: solid;
+  border-color: #5e17eb;
+  color: #5e17eb;
   cursor: pointer;
 }
 
@@ -58,13 +59,14 @@ li {
 .link {
   padding: 1vh;
   cursor: pointer;
-  font-weight: 500;
-  font-size: larger;
+  font-weight: normal;
+  font-size: 28px;
   transition: all 0.3s ease-in-out;
 }
 
 .link:hover {
   color: #5e17eb;
   border-bottom: solid 3px #5e17eb;
-  font-size: x-large;
+  font-size: 32px;
+  font-weight: bolder;
 }

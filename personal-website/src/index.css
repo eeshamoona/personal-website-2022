@@ -21,11 +21,11 @@ body {
   background-color: lavender;
 }
 .work {
-  background-color: aqua;
-}
-.projects {
   background-color: antiquewhite;
 }
+.projects {
+  background-color: lightpink;
+}
 .contact {
-  background-color: darkgoldenrod;
+  background-color: white;
 }

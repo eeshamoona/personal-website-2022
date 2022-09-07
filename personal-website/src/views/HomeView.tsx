@@ -1,5 +1,7 @@
 import React from "react";
+import { FaConnectdevelop, FaRegArrowAltCircleRight } from "react-icons/fa";
 import "../styles/homeviewStyles.css";
+
 function HomeView() {
   return (
     <div className="home-container">
@@ -29,8 +31,8 @@ function HomeView() {
         </div>
 
         <div>
-          <button className="btn"> Contact Me</button>
-          <button className="btn"> My Philosophy</button>
+          <button className="btn">Contact Me</button>
+          <button className="btn">My Philosophy</button>
         </div>
       </div>
       <div>
