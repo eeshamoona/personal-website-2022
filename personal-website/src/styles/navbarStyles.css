@@ -9,6 +9,7 @@
   gap: 50px;
   justify-content: space-between;
   background-color: white;
+  z-index: 3;
 }
 .logo {
   width: 5vh;
@@ -66,10 +67,4 @@ li {
   color: #5e17eb;
   border-bottom: solid 3px #5e17eb;
   font-size: x-large;
-}
-
-h2 {
-  text-align: center;
-  padding: 40px;
-  font-size: 30px;
 }
