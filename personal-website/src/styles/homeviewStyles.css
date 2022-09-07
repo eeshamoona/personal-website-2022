@@ -58,8 +58,8 @@
 }
 .main-header {
   width: min-content;
-  font-weight: bolder;
-  font-size: 96px;
+  font-weight: 900;
+  font-size: calc(550%);
 }
 
 .description-div {
