@@ -1,8 +1,9 @@
 import React from "react";
+import "../styles/homeviewStyles.css";
 
 function WorkExperienceView() {
   return (
-    <div>
+    <div className="home-container">
       <p> Hi My name is Eesha!</p>
       <p> This is the work experience section</p>
 

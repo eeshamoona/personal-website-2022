@@ -1,8 +1,8 @@
 import React from "react";
-
+import "../styles/homeviewStyles.css";
 function HomeView() {
   return (
-    <div>
+    <div className="home-container">
       <p> Hi My name is Eesha!</p>
       <p> This is the home page and where the my mission statement will go</p>
 

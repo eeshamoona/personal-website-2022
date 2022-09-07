@@ -41,10 +41,15 @@ function App() {
             Contact
           </li>
         </ul>
-        <button className="resume">
-          {" "}
-          <FaFileDownload /> Download Resume
-        </button>
+        <a
+          href="Eesha_Moona_Resume_Sept_2022.pdf"
+          download
+        >
+          <button className="resume">
+            {" "}
+            <FaFileDownload /> Download Resume
+          </button>
+        </a>
       </div>
 
       <div className="section home" ref={homeSection}>
