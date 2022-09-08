@@ -1,0 +1,38 @@
+.contact-container {
+  height: 100%;
+  padding: 10vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  width: -webkit-fill-available;
+  justify-content: space-evenly;
+}
+
+.link-logo {
+  color: black;
+  width: min-content;
+  font-size: 60px;
+  border: none;
+  margin: 0;
+  background-color: transparent;
+}
+
+.link-logo:hover {
+  color: #5e17eb;
+  cursor: pointer;
+}
+
+.connect-containter {
+  width: 100%;
+}
+
+.subheader {
+  font-size: 32px;
+  font-weight: lighter;
+}
