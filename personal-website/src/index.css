@@ -22,11 +22,59 @@ body {
   background-color: lavender;
 }
 .work {
-  background-color: antiquewhite;
+  background-color: white;
 }
 .projects {
   background-color: lightpink;
 }
 .contact {
   background-color: white;
+}
+
+.wave {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 450px;
+  background: white;
+  transition: 500ms;
+  overflow: hidden;
+}
+
+.wave::after {
+  position: absolute;
+  content: "";
+  width: 300vw;
+  height: 300vw;
+  top: -66vw;
+  left: 50%;
+  border-radius: 44%;
+  transform: translate(-50%, -75%);
+  background: lavender;
+  animation: wave 10s linear infinite;
+}
+
+.wave::before {
+  position: absolute;
+  content: "";
+  width: 300vw;
+  height: 300vw;
+  top: -65vw;
+  left: 50%;
+  border-radius: 44%;
+  transform: translate(-50%, -75%);
+  opacity: 50%;
+  background: lavender;
+  animation: wave 15s linear infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
 }

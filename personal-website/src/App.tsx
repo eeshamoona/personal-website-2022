@@ -51,6 +51,7 @@ function App() {
 
       <div className="section home" ref={homeSection}>
         <HomeView />
+        <div className="wave"></div>
       </div>
       <div className="section work" ref={workSection}>
         <WorkExperienceView />
