@@ -1,0 +1,32 @@
+.work {
+  padding: 10vh;
+  padding-bottom: 0px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.workExperience-containter {
+  width: 85%;
+}
+
+.work-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  gap: 5vw;
+}
+.work-div {
+  width: 20vw;
+  height: 20vw;
+  background-color: transparent;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.7s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.work-div:hover {
+  background-color: lavender;
+  height: 30vw;
+}
